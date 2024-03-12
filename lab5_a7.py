@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 
 # Load your data from an Excel file
 # Replace 'your_data.xlsx' with the actual file path and column names
-file_path = "C:\\Users\\Anu\\Documents\\SEM_04\\ML\\PROJECT\\Legality prediction\\English_Abstractive_Embeddings_Fasttext.xlsx"
+file_path = "C:\\Users\\mahad\\OneDrive\\Desktop\\SEM 4 Courses\\ML\\Legality\\Datasets\\English_Abstractive_Embeddings_Fasttext.xlsx"
 data = pd.read_excel(file_path)
 
 # Assuming 'X' contains your feature vectors and 'y' contains your class labels
